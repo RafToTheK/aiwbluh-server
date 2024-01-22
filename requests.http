@@ -1,0 +1,16 @@
+POST localhost:5000/chat
+Content-Type: application/json
+
+{
+  "prompt": "what is your name"
+}
+
+###
+
+GET localhost:5000/chat
+Content-Type: application/json
+
+###
+
+DELETE localhost:5000/chat
+Content-Type: application/json
